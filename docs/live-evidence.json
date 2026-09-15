@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "native bar-widget summon and fixture identity",
+    "keyboard search and drill-down",
+    "keyboard file selection",
+    "cleanup confirmation: Cancel default, arrows, Escape",
+    "recovery keyboard restore/delete with Cancel-first confirmation",
+    "repeated open and Escape close",
+    "outside-click dismissal"
+  ],
+  "capture": "/home/tcballard/Source/omarchy-plugin-tidyup/preview.png",
+  "monitor": "eDP-1",
+  "source": "working tree",
+  "restored": true
+}

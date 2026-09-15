@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.tcballard.tidyup",
+  "name": "Omarchy TidyUp",
+  "version": "0.1.0",
+  "author": "tcballard",
+  "license": "MIT",
+  "description": "Review app files, uninstall native packages, and recover or delete leftover clutter.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}

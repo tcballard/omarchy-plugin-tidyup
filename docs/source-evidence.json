@@ -1,0 +1,11 @@
+{
+  "manifest.json": "3bbfe085c6652ef52c64c2a0aa89eda9f62dc798d84230a452ff80dc46ee0dfc",
+  "BarWidget.qml": "9b4a8a8b95a4aed81b93fa1ed81caf427c10833093de3ca86fa15faa18a0cfa8",
+  "Panel.qml": "9a2534ffde4ce1291daab02ca6a2ad71e3d51b92083b6f7ab4f01b34b2ef57e4",
+  "Navigation.js": "16b112908b324206ea5b274a0c7863bde1f46cb7b59121e3d989b39e47f4cf78",
+  "demo/fixtures/DemoData.js": "43c991de76e73ccbdc33068b8c9dfe56fd4e568b0d5558376210a4869df4dd16",
+  "backend/tidyup.py": "c33d0495af3017c183948c8cb7ab76bae0d5fb22514e73410a5150a034f02d91",
+  "demo/live.py": "bb1b834d402c99f5c3f7b7119d7b0469b98ec42c438bc85ea753b1dbe351b54c",
+  "tests/test_backend.py": "7c60b1335f615b403b96f1950ec3eee6cb3af9d0c19c873833bd31de5a8a82de",
+  "tests/qml/tst_navigation.qml": "4f92374f0f9c182993b021aa99066b86d1d1ce337812a175299459a530fc0b7d"
+}
