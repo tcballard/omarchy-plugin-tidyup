@@ -53,6 +53,10 @@ omarchy plugin add https://github.com/tcballard/omarchy-plugin-tidyup.git --enab
 
 Marketplace submission is separate from this build.
 
+Update a git installation with `omarchy plugin update io.github.tcballard.tidyup`.
+Review the displayed changes before confirming. For development links, update the
+source checkout yourself and run `omarchy-shell shell rescanPlugins`.
+
 ## Workflow
 
 1. Choose an app and review its matching folders. Close the app before moving files.
@@ -142,3 +146,9 @@ remove installed packages or personal files. See [design](docs/DESIGN.md) and
 [verification](docs/VERIFICATION.md) for scope and evidence.
 
 MIT licensed. Built with [Build Omarchy Plugins](https://github.com/tcballard/build-omarchy-plugins).
+Python, Qt/Quickshell, and the Omarchy components are system dependencies and are
+not bundled here; their respective upstream licenses apply.
+
+Report bugs and compatibility problems through [GitHub Issues](https://github.com/tcballard/omarchy-plugin-tidyup/issues).
+Include the plugin commit, Omarchy version, and reproduction steps using fictional
+files. For security concerns, see [SECURITY.md](SECURITY.md).

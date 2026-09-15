@@ -47,8 +47,12 @@ No claim is made that every Omarchy 4.x release or monitor arrangement was teste
 - Plain qmllint initially lacked the synthetic `qs.*` imports; its zero exit code
   was not treated as proof. Actual hosted component loading and QtTest are recorded
   separately above.
-- QtTest runs in CI after installing Qt dependencies; local results do not predict
-  the first remote workflow outcome.
+- GitHub CI passed on source commit `3f81203d67f5245bca0f90c148dd2704feb8e1e1`
+  ([run 34931527301](https://github.com/tcballard/omarchy-plugin-tidyup/actions/runs/34931527301)).
+  A fresh independent local Git clone also passed all 25 checks.
+- Live installation used a development symlink. A full standard Git add, an update
+  between released versions, and removal of that installation have not been exercised.
+  These remain release verification gaps; source-clone tests do not replace them.
 
 ## Resolved failures
 
